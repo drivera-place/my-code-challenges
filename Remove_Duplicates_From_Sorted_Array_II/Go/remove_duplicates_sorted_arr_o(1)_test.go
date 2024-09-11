@@ -11,6 +11,7 @@ func Test_Count_Duplicated_First_Case(t *testing.T) {
 	expectedK := 7
 
 	// Act
+	t.Logf(`Initial array: %v`, test)
 	output := countDuplicated(test)
 
 	// Assert
@@ -24,6 +25,7 @@ func Test_Count_Duplicated_Second_Case(t *testing.T) {
 	expectedK := 5
 
 	// Act
+	t.Logf(`Initial array: %v`, test)
 	output := countDuplicated(test)
 
 	// Assert
@@ -37,6 +39,7 @@ func Test_Count_Duplicated_Third_Case(t *testing.T) {
 	expectedK := 4
 
 	// Act
+	t.Logf(`Initial array: %v`, test)
 	output := countDuplicated(test)
 
 	// Assert
@@ -50,6 +53,7 @@ func Test_Count_Duplicated_Flat_Array(t *testing.T) {
 	expectedK := 2
 
 	// Act
+	t.Logf(`Initial array: %v`, test)
 	output := countDuplicated(test)
 
 	// Assert
@@ -63,6 +67,7 @@ func Test_Count_Duplicated_Single_Item(t *testing.T) {
 	expectedK := 1
 
 	// Act
+	t.Logf(`Initial array: %v`, test)
 	output := countDuplicated(test)
 
 	// Assert
@@ -76,6 +81,7 @@ func Test_Count_Duplicated_Single_Empty_Array(t *testing.T) {
 	expectedK := 0
 
 	// Act
+	t.Logf(`Initial array: %v`, test)
 	output := countDuplicated(test)
 
 	// Assert

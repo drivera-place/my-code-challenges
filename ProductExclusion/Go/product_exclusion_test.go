@@ -8,6 +8,7 @@ func Test_Product_Exclusion(t *testing.T) {
 	expected := []int{60, 40, 30, 24}
 
 	// Act
+	t.Logf(`Input array: %v`, input)
 	output := productExclusion(input)
 
 	// Assert
@@ -20,6 +21,7 @@ func Test_Product_Exclusion_Empty_Array(t *testing.T) {
 	expected := []int{}
 
 	// Act
+	t.Logf(`Input array: %v`, input)
 	output := productExclusion(input)
 
 	// Assert
@@ -32,6 +34,7 @@ func Test_Product_Exclusion_Single_Item_Array(t *testing.T) {
 	expected := []int{1}
 
 	// Act
+	t.Logf(`Input array: %v`, input)
 	output := productExclusion(input)
 
 	// Assert
@@ -44,6 +47,7 @@ func Test_Product_Exclusion_Array_With_A_Zero(t *testing.T) {
 	expected := []int{30, 0, 0, 0}
 
 	// Act
+	t.Logf(`Input array: %v`, input)
 	output := productExclusion(input)
 
 	// Assert
